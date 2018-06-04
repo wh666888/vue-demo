@@ -54,7 +54,7 @@ export default {
     // },
     methods:{
         ...mapMutations({
-            // 前面increment是mutations中的方法，后面increment是组件中的事件（将mutations中的方法映射到组件中）
+            // 前面increment是组件中的方法，后面mutations是组件中的事件（将mutations中的方法映射到组件中）
             increment:"increment",
             decrement:"decrement"
         }),
